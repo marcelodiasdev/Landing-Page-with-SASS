@@ -1,0 +1,12 @@
+@use '../abstract/variaveis';
+@use '../abstract/mixins';
+
+
+footer {
+    background: variaveis.$cor-quaternaria;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 4rem;
+    @include mixins.ffamily-fsize-color(variaveis.$ft-textos, 1rem, variaveis.$cor-primaria);
+
+}
